@@ -22,7 +22,7 @@ function Hero() {
         <div className="max-w-125">
           <img
             className="rounded-2xl"
-            src="src/assets/hero-image.jpg"
+            src="./src/assets/hero-image.jpg"
             alt="Hero Image"
           />
         </div>
