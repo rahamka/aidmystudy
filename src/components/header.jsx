@@ -1,8 +1,10 @@
+import myLogo from "./assets/logo.png";
+
 function Header() {
   return (
     <header className="bg-blue-200 h-14 font-bold flex justify-between pl-2 pr-2 ">
       <div className="w-50 h-full rounded-2xl flex items-center">
-        <img className="bg-transparent" src="./src/assets/logo.png" alt="" />
+        <img className="bg-transparent" src={myLogo} alt="" />
       </div>
 
       <div className="flex items-center ">

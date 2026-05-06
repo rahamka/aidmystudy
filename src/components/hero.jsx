@@ -1,3 +1,5 @@
+import heroImg from "./assets/hero-image.jpg";
+
 function Hero() {
   return (
     <main className="h-[500px]">
@@ -20,11 +22,7 @@ function Hero() {
 
         {/* Hero Section Image */}
         <div className="max-w-125">
-          <img
-            className="rounded-2xl"
-            src="./src/assets/hero-image.jpg"
-            alt="Hero Image"
-          />
+          <img className="rounded-2xl" src={heroImg} alt="Hero Image" />
         </div>
       </div>
     </main>
