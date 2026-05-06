@@ -2,7 +2,7 @@ import heroImg from "../assets/hero-image.jpg";
 
 function Hero() {
   return (
-    <main className="h-[500px]">
+    <main className="h-125">
       {/* Welcome Div */}
       <div className="flex flex-wrap justify-center items-center h-full md:gap-4 max-md:text-center">
         <div>
