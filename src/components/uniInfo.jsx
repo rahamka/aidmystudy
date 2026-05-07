@@ -112,7 +112,7 @@ function UniInfo() {
       eligibility: "12th pass (Age between 18-25)",
       documents:
         "Statement of Purpose, Police Clearance, Birth Certificate, Educational Docs",
-      applyLink: "https://www.mfa.gov.bn/online-bdgs/",
+      applyLink: "https://www.mfa.gov.bn/",
       pocket_money_needed: "Minimal (Most things covered, Ticket included)",
     },
     {
@@ -127,7 +127,7 @@ function UniInfo() {
       eligibility: "12th pass (Last year of high school/fresh graduate)",
       documents:
         "School Nomination, English Proficiency (IELTS), Outstanding Achievement Record",
-      applyLink: "https://future.utoronto.ca/pearson/announcement/",
+      applyLink: "https://future.utoronto.ca/",
       pocket_money_needed:
         "3.5 to 4 Lakh PKR (High Visa fees and flight costs)",
     },
@@ -142,7 +142,7 @@ function UniInfo() {
         "Tuition Fee, Flight (Once a year), Stipend (800 AZN), Medical, Visa support",
       eligibility: "12th pass (Citizens of OIC countries like Pakistan)",
       documents: "Passport, Medical Report (HIV/Hepatitis), 12th Marks-sheet",
-      applyLink: "https://aida.mfa.gov.az/en/education/221/",
+      applyLink: "https://portal.edu.az/",
       pocket_money_needed: "1 Lakh PKR (For initial setup and ticket)",
     },
     {
@@ -192,7 +192,7 @@ function UniInfo() {
         "12th class pass (Excellent grades). Age between 17 to 25 years.",
       documents:
         "1. Valid Passport\n2. Attested Intermediate Certificate (MOFA)\n3. Birth Certificate\n4. Police Clearance Certificate (PCC)\n5. Detailed Medical Report (from an authentic hospital)\n6. Two Recommendation Letters from College Teachers.",
-      applyLink: "https://admission.kau.edu.sa/Pages-intl-students-en.aspx",
+      applyLink: "https://kau.edu.sa/en/page/scholarship",
       pocket_money_needed:
         "Zero (Visa is usually free or reimbursed, ticket is provided. Keep 20k PKR for attestation costs)",
     },
@@ -243,8 +243,7 @@ function UniInfo() {
         "12th class pass (Min 75% marks). Excellent academic record in Mathematics and Physics.",
       documents:
         "1. Passport Copy\n2. High School Transcripts (Attested)\n3. Standardized Test Scores (SAT/ACT) - Optional but highly recommended\n4. English Proficiency Score (IELTS 6.0 / TOEFL)\n5. Citizen ID Card (CNIC/B-Form).",
-      applyLink:
-        "https://www.siit.tu.ac.th/about_news_detail.php?sid=61&nid=479",
+      applyLink: "https://www.siit.tu.ac.th/",
       pocket_money_needed:
         "1 to 1.5 Lakh PKR (For Visa and Flight Ticket. Allowances cover living costs well)",
     },
@@ -297,8 +296,7 @@ function UniInfo() {
         "12th class pass. Automatic evaluation during admission based on academic merit.",
       documents:
         "1. Passport\n2. High School Diploma/Transcripts\n3. SAT/ACT Scores (Compulsory for Full Scholarship)\n4. TOEFL/PTE scores (If available)\n5. Academic Letter of Recommendation\n6. Extracurricular achievements/Certificates.",
-      applyLink:
-        "https://www.sabanciuniv.edu/en/scholarships-prospective-students",
+      applyLink: "https://www.sabanciuniv.edu/tr",
       pocket_money_needed:
         "Varies. If fully funded, 1 Lakh PKR for Ticket & Visa. If partial, costs will be much higher.",
     },
