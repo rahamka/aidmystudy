@@ -14,7 +14,7 @@ function Header() {
           <a href="#">Documents for Apply</a>
           {/* <a href="#">UniInfo</a> */}
           <a href="#">Foreign Scholarships</a>
-          <a href="#">Contact Us</a>
+          <a href="#">Apply with Us</a>
           <a
             href="#"
             className="bg-sky-700 pl-1 pr-1 rounded-sm text-white font-semibold ">
