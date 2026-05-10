@@ -16,7 +16,21 @@ function Header() {
     <header className="  h-14 font-bold bg-[#6cd0ffe3] flex justify-between pl-2 pr-2 sticky top-0">
       <div className="max-[425px]:w-30 w-50 h-full rounded-2xl flex items-center">
         <a href="https://aidmystudy.netlify.app/">
-          <img src={myLogo} alt="Logo" />
+          <img
+            style={{
+              WebkitTouchCallout: "none",
+              WebkitUserSelect: "none",
+              KhtmlUserSelect: "none",
+              MozUserSelect: "none",
+              msUserSelect: "none",
+              userSelect: "none",
+              pointerEvents: "none",
+              WebkitUserDrag: "none",
+              userDrag: "none",
+            }}
+            src={myLogo}
+            alt="Logo"
+          />
         </a>
       </div>
 
