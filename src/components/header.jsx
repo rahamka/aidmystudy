@@ -39,13 +39,13 @@ function Header() {
             ${isClicked ? "max-[750px]:right-0" : "max-[750px]:-right-full max-[900px]:text-[14px]"}
           `}>
           <li className="list-none flex gap-6 max-[750px]:flex-col max-[750px]:items-center">
-            <a className="hover:text-[#15616D]" href="#">
+            <a className="hover:text-[#005f8b]" href="#">
               Documents for Apply
             </a>
-            <a className="hover:text-[#15616D]" href="#">
+            <a className="hover:text-[#005f8b]" href="#">
               Foreign Scholarships
             </a>
-            <a className="hover:text-[#15616D]" href="#">
+            <a className="hover:text-[#005f8b]" href="#">
               Apply with Us
             </a>
             <a

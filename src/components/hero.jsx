@@ -22,7 +22,22 @@ function Hero() {
 
         {/* Hero Section Image */}
         <div className="max-w-125">
-          <img className="rounded-2xl" src={heroImg} alt="Hero Image" />
+          <img
+            style={{
+              WebkitTouchCallout: "none",
+              WebkitUserSelect: "none",
+              KhtmlUserSelect: "none",
+              MozUserSelect: "none",
+              msUserSelect: "none",
+              userSelect: "none",
+              pointerEvents: "none",
+              WebkitUserDrag: "none",
+              userDrag: "none",
+            }}
+            className="rounded-2xl"
+            src={heroImg}
+            alt="Hero Image"
+          />
         </div>
       </div>
     </main>
