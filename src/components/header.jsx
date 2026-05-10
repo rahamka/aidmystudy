@@ -13,7 +13,7 @@ function Header() {
   };
 
   return (
-    <header className="bg-blue-200 h-14 font-bold flex justify-between pl-2 pr-2 relative">
+    <header className="  h-14 font-bold bg-[#98dcf7e3] flex justify-between pl-2 pr-2 sticky top-0">
       <div className="max-[425px]:w-30 w-50 h-full rounded-2xl flex items-center">
         <a href="https://aidmystudy.netlify.app/">
           <img src={myLogo} alt="Logo" />
@@ -34,7 +34,7 @@ function Header() {
         <ul
           className={`
             flex gap-6 items-center transition-all duration-350 ease-in
-            max-[750px]:flex-col max-[750px]:fixed max-[750px]:top-0 max-[750px]:bg-[#98dcf7d8]
+            max-[750px]:flex-col max-[750px]:fixed max-[750px]:top-0 max-[750px]:bg-[#98dcf7e3]
             max-[750px]:h-screen max-[750px]:w-62.5 max-[750px]:pt-20 
             ${isClicked ? "max-[750px]:right-0" : "max-[750px]:-right-full max-[900px]:text-[14px]"}
           `}>

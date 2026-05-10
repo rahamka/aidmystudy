@@ -204,11 +204,20 @@
   }
 }
 @layer utilities {
+  .absolute {
+    position: absolute;
+  }
   .fixed {
     position: fixed;
   }
   .relative {
     position: relative;
+  }
+  .sticky {
+    position: sticky;
+  }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
   }
   .top-3 {
     top: calc(var(--spacing) * 3);
@@ -405,6 +414,9 @@
   }
   .border-blue-400 {
     border-color: var(--color-blue-400);
+  }
+  .bg-\[\#98dcf7e3\] {
+    background-color: #98dcf7e3;
   }
   .bg-blue-50 {
     background-color: var(--color-blue-50);
@@ -884,6 +896,11 @@
   .max-\[750px\]\:bg-\[\#98dcf7d8\] {
     @media (width < 750px) {
       background-color: #98dcf7d8;
+    }
+  }
+  .max-\[750px\]\:bg-\[\#98dcf7e3\] {
+    @media (width < 750px) {
+      background-color: #98dcf7e3;
     }
   }
   .max-\[750px\]\:bg-\[\#2563EB\] {
