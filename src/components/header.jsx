@@ -13,7 +13,7 @@ function Header() {
   };
 
   return (
-    <header className="  h-14 font-bold bg-[#98dcf7e3] flex justify-between pl-2 pr-2 sticky top-0">
+    <header className="  h-14 font-bold bg-[#6cd0ffe3] flex justify-between pl-2 pr-2 sticky top-0">
       <div className="max-[425px]:w-30 w-50 h-full rounded-2xl flex items-center">
         <a href="https://aidmystudy.netlify.app/">
           <img src={myLogo} alt="Logo" />
@@ -39,12 +39,18 @@ function Header() {
             ${isClicked ? "max-[750px]:right-0" : "max-[750px]:-right-full max-[900px]:text-[14px]"}
           `}>
           <li className="list-none flex gap-6 max-[750px]:flex-col max-[750px]:items-center">
-            <a href="#">Documents for Apply</a>
-            <a href="#">Foreign Scholarships</a>
-            <a href="#">Apply with Us</a>
+            <a className="hover:text-[#15616D]" href="#">
+              Documents for Apply
+            </a>
+            <a className="hover:text-[#15616D]" href="#">
+              Foreign Scholarships
+            </a>
+            <a className="hover:text-[#15616D]" href="#">
+              Apply with Us
+            </a>
             <a
               href="#"
-              className="bg-sky-700 px-3 py-1 rounded-sm text-white font-semibold">
+              className="bg-sky-700 hover:bg-[#1b98db] px-3 py-1 rounded-sm text-white font-semibold">
               Donate Me
             </a>
           </li>

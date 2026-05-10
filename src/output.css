@@ -7,12 +7,14 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-amber-50: oklch(98.7% 0.022 95.277);
     --color-green-700: oklch(52.7% 0.154 150.069);
     --color-sky-700: oklch(50% 0.134 242.749);
     --color-sky-800: oklch(44.3% 0.11 240.79);
     --color-blue-50: oklch(97% 0.014 254.604);
     --color-blue-100: oklch(93.2% 0.032 255.585);
     --color-blue-200: oklch(88.2% 0.059 254.128);
+    --color-blue-300: oklch(80.9% 0.105 251.813);
     --color-blue-400: oklch(70.7% 0.165 254.624);
     --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-blue-700: oklch(48.8% 0.243 264.376);
@@ -21,6 +23,7 @@
     --color-slate-50: oklch(98.4% 0.003 247.858);
     --color-slate-600: oklch(44.6% 0.043 257.281);
     --color-slate-700: oklch(37.2% 0.044 257.287);
+    --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-white: #fff;
     --spacing: 0.25rem;
     --container-2xl: 42rem;
@@ -415,8 +418,50 @@
   .border-blue-400 {
     border-color: var(--color-blue-400);
   }
+  .bg-\[\#1b98db\] {
+    background-color: #1b98db;
+  }
+  .bg-\[\#5eccff\] {
+    background-color: #5eccff;
+  }
+  .bg-\[\#6cd0ff\] {
+    background-color: #6cd0ff;
+  }
+  .bg-\[\#6cd0ffe3\] {
+    background-color: #6cd0ffe3;
+  }
+  .bg-\[\#40c0fc\] {
+    background-color: #40c0fc;
+  }
+  .bg-\[\#47cbffec\] {
+    background-color: #47cbffec;
+  }
+  .bg-\[\#52c8ff\] {
+    background-color: #52c8ff;
+  }
+  .bg-\[\#52ceff\] {
+    background-color: #52ceff;
+  }
+  .bg-\[\#52ceffec\] {
+    background-color: #52ceffec;
+  }
+  .bg-\[\#63caf3ec\] {
+    background-color: #63caf3ec;
+  }
+  .bg-\[\#66bbddec\] {
+    background-color: #66bbddec;
+  }
+  .bg-\[\#78d4f8ec\] {
+    background-color: #78d4f8ec;
+  }
   .bg-\[\#98dcf7e3\] {
     background-color: #98dcf7e3;
+  }
+  .bg-\[\#98dcf7ec\] {
+    background-color: #98dcf7ec;
+  }
+  .bg-\[\#bg-\[\#1b98db\]\] {
+    background-color: #bg-[#1b98db];
   }
   .bg-blue-50 {
     background-color: var(--color-blue-50);
@@ -651,6 +696,76 @@
       }
     }
   }
+  .hover\:bg-\[\#1b98db\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #1b98db;
+      }
+    }
+  }
+  .hover\:bg-\[\#003f61\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #003f61;
+      }
+    }
+  }
+  .hover\:bg-\[\#0077B6\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #0077B6;
+      }
+    }
+  }
+  .hover\:bg-\[\#00517c\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #00517c;
+      }
+    }
+  }
+  .hover\:bg-\[\#004970\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #004970;
+      }
+    }
+  }
+  .hover\:bg-\[\#004970cb\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #004970cb;
+      }
+    }
+  }
+  .hover\:bg-\[\#004970de\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #004970de;
+      }
+    }
+  }
+  .hover\:bg-\[\#005685de\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #005685de;
+      }
+    }
+  }
+  .hover\:bg-\[\#005785\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #005785;
+      }
+    }
+  }
+  .hover\:bg-\[\#096699\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #096699;
+      }
+    }
+  }
   .hover\:bg-blue-700 {
     &:hover {
       @media (hover: hover) {
@@ -665,11 +780,85 @@
       }
     }
   }
+  .hover\:hover\:bg-\[\#1b98db\] {
+    &:hover {
+      @media (hover: hover) {
+        &:hover {
+          @media (hover: hover) {
+            background-color: #1b98db;
+          }
+        }
+      }
+    }
+  }
   .hover\:font-bold {
     &:hover {
       @media (hover: hover) {
         --tw-font-weight: var(--font-weight-bold);
         font-weight: var(--font-weight-bold);
+      }
+    }
+  }
+  .hover\:text-\[\#8ECAE6\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #8ECAE6;
+      }
+    }
+  }
+  .hover\:text-\[\#90E0EF\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #90E0EF;
+      }
+    }
+  }
+  .hover\:text-\[\#03045E\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #03045E;
+      }
+    }
+  }
+  .hover\:text-\[\#15616D\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #15616D;
+      }
+    }
+  }
+  .hover\:text-\[\#023047\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #023047;
+      }
+    }
+  }
+  .hover\:text-\[8ECAE6\] {
+    &:hover {
+      @media (hover: hover) {
+        color: 8ECAE6;
+      }
+    }
+  }
+  .hover\:text-amber-50 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-amber-50);
+      }
+    }
+  }
+  .hover\:text-blue-300 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-blue-300);
+      }
+    }
+  }
+  .hover\:text-gray-300 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-gray-300);
       }
     }
   }

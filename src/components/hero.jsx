@@ -12,10 +12,10 @@ function Hero() {
           <p className="font-sans font-bold px-2 py-1">
             Our goal is to empower Sindhi students to study or work abroad.
           </p>
-          <button className="m-1 bg-sky-700 text-white font-semibold px-2 rounded-sm hover:cursor-pointer">
+          <button className="m-1 hover:bg-[#1b98db] bg-sky-700 text-white font-semibold px-2 rounded-sm hover:cursor-pointer">
             About Us
           </button>
-          <button className="bg-sky-700 text-white font-semibold px-2 rounded-sm hover:cursor-pointer">
+          <button className="bg-sky-700 hover:bg-[#1b98db] text-white font-semibold px-2 rounded-sm hover:cursor-pointer">
             Contact Us
           </button>
         </div>
