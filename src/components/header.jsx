@@ -34,7 +34,7 @@ function Header() {
         <ul
           className={`
             flex gap-6 items-center transition-all duration-500 ease-in-out
-            max-[750px]:flex-col max-[750px]:fixed max-[750px]:top-0 max-[750px]:bg-blue-100 
+            max-[750px]:flex-col max-[750px]:fixed max-[750px]:top-0 max-[750px]:bg-[#98dcf7d8]
             max-[750px]:h-screen max-[750px]:w-62.5 max-[750px]:pt-20 
             ${isClicked ? "max-[750px]:right-0" : "max-[750px]:-right-full max-[900px]:text-[14px]"}
           `}>

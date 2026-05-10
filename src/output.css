@@ -837,9 +837,59 @@
       background-color: ##d4f1f9;
     }
   }
+  .max-\[750px\]\:bg-\[\#0D9488\] {
+    @media (width < 750px) {
+      background-color: #0D9488;
+    }
+  }
+  .max-\[750px\]\:bg-\[\#1E3A8A\] {
+    @media (width < 750px) {
+      background-color: #1E3A8A;
+    }
+  }
+  .max-\[750px\]\:bg-\[\#5ec5ee\] {
+    @media (width < 750px) {
+      background-color: #5ec5ee;
+    }
+  }
+  .max-\[750px\]\:bg-\[\#98dcf7\] {
+    @media (width < 750px) {
+      background-color: #98dcf7;
+    }
+  }
+  .max-\[750px\]\:bg-\[\#98dcf7be\] {
+    @media (width < 750px) {
+      background-color: #98dcf7be;
+    }
+  }
+  .max-\[750px\]\:bg-\[\#98dcf7cb\] {
+    @media (width < 750px) {
+      background-color: #98dcf7cb;
+    }
+  }
+  .max-\[750px\]\:bg-\[\#98dcf7d8\] {
+    @media (width < 750px) {
+      background-color: #98dcf7d8;
+    }
+  }
+  .max-\[750px\]\:bg-\[\#2563EB\] {
+    @media (width < 750px) {
+      background-color: #2563EB;
+    }
+  }
   .max-\[750px\]\:bg-\[\#DEF4FC\] {
     @media (width < 750px) {
       background-color: #DEF4FC;
+    }
+  }
+  .max-\[750px\]\:bg-\[\#EFF6FF\] {
+    @media (width < 750px) {
+      background-color: #EFF6FF;
+    }
+  }
+  .max-\[750px\]\:bg-\[\#F97316\] {
+    @media (width < 750px) {
+      background-color: #F97316;
     }
   }
   .max-\[750px\]\:bg-\[\#d4f1f9\] {
