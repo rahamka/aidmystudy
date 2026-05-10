@@ -344,7 +344,7 @@ function UniInfo() {
     <div id="UniInfo" className="bg-slate-50 min-h-screen pb-10">
       {/* Header Section */}
       <div className="text-center py-10 px-4 max-[480px]:py-0">
-        <h1 className="font-['Poppins'] text-3xl md:text-4xl font-bold text-blue-600 max-[820px]:mt-5 max-[480px]:mt-0 ">
+        <h1 className="font-['Poppins'] text-3xl max-[800px]:mt-5 max-[480px]:mt-10 md:text-4xl font-bold text-blue-600 max-[820px]:mt-5 max-[430px]:mt-0 max-[430px]:text-[22px] ">
           Welcome to University Information Page
         </h1>
         <p className="font-['Poppins'] text-lg md:text-xl mt-3 text-slate-600 max-w-2xl mx-auto">
