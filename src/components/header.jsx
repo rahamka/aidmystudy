@@ -23,7 +23,7 @@ function Header() {
       <p
         id="burger-icon"
         onClick={toggleBurger}
-        style={{ transition: "transform 0.3s ease" }}
+        style={{ transition: "transform 0.1s ease-in" }}
         className={`max-[750px]:block fixed right-4 top-3 z-50 hidden text-3xl cursor-pointer ${
           isClicked ? "rotate-180" : "rotate-0"
         }`}>
@@ -33,7 +33,7 @@ function Header() {
       <nav className="flex items-center justify-center">
         <ul
           className={`
-            flex gap-6 items-center transition-all duration-500 ease-in-out
+            flex gap-6 items-center transition-all duration-350 ease-in
             max-[750px]:flex-col max-[750px]:fixed max-[750px]:top-0 max-[750px]:bg-[#98dcf7d8]
             max-[750px]:h-screen max-[750px]:w-62.5 max-[750px]:pt-20 
             ${isClicked ? "max-[750px]:right-0" : "max-[750px]:-right-full max-[900px]:text-[14px]"}
