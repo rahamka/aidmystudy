@@ -343,7 +343,7 @@ function UniInfo() {
   return (
     <div id="UniInfo" className="bg-slate-50 min-h-screen pb-10">
       {/* Header Section */}
-      <div className="text-center py-10 px-4 max-[480px]:py-0">
+      <div className="text-center py-10 px-4 max-[480px]:py-0 cursor-default select-none">
         <h1 className="font-['Poppins'] text-3xl max-[800px]:mt-5 max-[480px]:mt-10 md:text-4xl font-bold text-blue-600 max-[820px]:mt-5 max-[430px]:mt-0 max-[430px]:text-[22px] ">
           Welcome to University Information Page
         </h1>
@@ -352,12 +352,12 @@ function UniInfo() {
         </p>
       </div>
 
-      <div className="max-w-4xl mx-auto p-4">
+      <div className="max-w-4xl mx-auto p-4 cursor-default">
         <h2 className="text-2xl font-bold text-blue-900 mb-6 border-b-2 border-blue-200 pb-2">
           Available Fully-Funded Scholarships
         </h2>
 
-        <div className="grid gap-8">
+        <div className="grid gap-8 select-none ">
           {scholarships.map((scholar) => (
             <div
               key={scholar.id}

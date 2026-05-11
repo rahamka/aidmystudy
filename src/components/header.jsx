@@ -53,18 +53,18 @@ function Header() {
             ${isClicked ? "max-[750px]:right-0" : "max-[750px]:-right-full max-[900px]:text-[14px]"}
           `}>
           <li className="list-none flex gap-6 max-[750px]:flex-col max-[750px]:items-center">
-            <a className="hover:text-[#005f8b]" href="#">
+            <a className="hover:text-[#005f8b] select-none" href="#">
               Documents for Apply
             </a>
-            <a className="hover:text-[#005f8b]" href="#">
+            <a className="hover:text-[#005f8b] select-none" href="#">
               Foreign Scholarships
             </a>
-            <a className="hover:text-[#005f8b]" href="#">
+            <a className="hover:text-[#005f8b] select-none" href="#">
               Apply with Us
             </a>
             <a
               href="#"
-              className="bg-sky-700 hover:bg-[#1b98db] px-3 py-1 rounded-sm text-white font-semibold">
+              className="bg-sky-700 hover:bg-[#1b98db] px-3 py-1 rounded-sm text-white font-semibold select-none">
               Donate Me
             </a>
           </li>
