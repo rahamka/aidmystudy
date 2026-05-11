@@ -1,16 +1,34 @@
-# React + Vite
+# AidMyStudy 🎓
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**AidMyStudy** is a comprehensive web platform designed to empower students by providing easy access to fully-funded scholarships and international study opportunities. Built with a focus on speed and user experience, it helps students navigate the complexities of studying and working abroad.
 
-Currently, two official plugins are available:
+🚀 **Live Demo:** [aidmystudy.netlify.app](https://aidmystudy.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Features
 
-## React Compiler
+- **Comprehensive Scholarship Database:** Access a curated list of fully-funded scholarships globally.
+- **University Insights:** Real-time information on what universities are offering and their current programs.
+- **Detailed Requirements:** View crucial details for each opportunity, including:
+  - University Name & Location
+  - Scholarship Benefits (Stipend, Tuition, etc.)
+  - Annual Application Timelines
+  - Eligibility Criteria (Who can apply?)
+  - Required Documentation Checklist
+- **Direct Application:** Streamlined process to apply directly through integrated forms.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React.js
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Language:** JavaScript, HTML5, CSS3
+- **Deployment:** Netlify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+To get a local copy up and running, follow these simple steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/rahamka/aidmystudy.git](https://github.com/rahamka/aidmystudy.git)
+   ```
