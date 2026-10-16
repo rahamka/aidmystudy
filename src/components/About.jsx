@@ -5,7 +5,7 @@ const About = () => {
     <div className="flex flex-col w-full">
       <div className=" p-4">
         <Link to="/">
-          <button className="bg-sky-700 hover:bg-[#1b98db] px-3 py-1 rounded-sm text-white font-semibold select-none">
+          <button className="cursor-pointer bg-sky-700 hover:bg-[#1b98db] px-3 py-1 rounded-sm text-white font-semibold select-none">
             Back to Home
           </button>
         </Link>
