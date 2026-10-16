@@ -47,12 +47,12 @@ function Header() {
       <nav className="flex items-center justify-center">
         <ul
           className={`
-            flex gap-6 items-center transition-all duration-350 ease-in
+            flex gap-6 transition-all duration-350 ease-in
             max-[750px]:flex-col max-[750px]:fixed max-[750px]:top-0 max-[750px]:bg-[#98dcf7e3]
             max-[750px]:h-screen max-[750px]:w-62.5 max-[750px]:pt-20 
             ${isClicked ? "max-[750px]:right-0" : "max-[750px]:-right-full max-[900px]:text-[14px]"}
           `}>
-          <li className="list-none flex gap-6 max-[750px]:flex-col max-[750px]:items-center">
+          <li className="list-none flex gap-6 max-[750px]:flex-col max-[750px]:items-center justify-center items-center">
             <a className="hover:text-[#005f8b] select-none" href="#">
               Documents for Apply
             </a>
