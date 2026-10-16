@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { useState } from "react";
 import myLogo from "../assets/logo.png";
 
@@ -15,7 +16,7 @@ function Header() {
   return (
     <header className="  h-14 font-bold bg-[#6cd0ffe3] flex justify-between pl-2 pr-2 sticky top-0">
       <div className="max-[425px]:w-30 w-50 h-full rounded-2xl flex items-center">
-        <a href="https://aidmystudy.netlify.app/">
+        <Link to="/">
           <img
             style={{
               WebkitTouchCallout: "none",
@@ -31,7 +32,7 @@ function Header() {
             src={myLogo}
             alt="Logo"
           />
-        </a>
+        </Link>
       </div>
 
       <p
@@ -53,20 +54,24 @@ function Header() {
             ${isClicked ? "max-[750px]:right-0" : "max-[750px]:-right-full max-[900px]:text-[14px]"}
           `}>
           <li className="list-none flex gap-6 max-[750px]:flex-col max-[750px]:items-center justify-center items-center">
-            <a className="hover:text-[#005f8b] select-none" href="#">
+            <Link className="hover:text-[#005f8b] select-none" to="/documents">
               Documents for Apply
-            </a>
-            <a className="hover:text-[#005f8b] select-none" href="#">
+            </Link>
+            <Link
+              className="hover:text-[#005f8b] select-none"
+              to="/foreign-scholarships">
               Foreign Scholarships
-            </a>
-            <a className="hover:text-[#005f8b] select-none" href="#">
+            </Link>
+            <Link
+              className="hover:text-[#005f8b] select-none"
+              to="/apply-with-us">
               Apply with Us
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/donate"
               className="bg-sky-700 hover:bg-[#1b98db] px-3 py-1 rounded-sm text-white font-semibold select-none">
-              Donate Me
-            </a>
+              Donate Us
+            </Link>
           </li>
         </ul>
       </nav>
