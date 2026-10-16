@@ -1,6 +1,14 @@
+import { Link } from "react-router";
 function Documents() {
   return (
     <div>
+      <div className=" p-4">
+        <Link to="/">
+          <button className="bg-sky-700 hover:bg-[#1b98db] px-3 py-1 rounded-sm text-white font-semibold select-none">
+            Back to Home
+          </button>
+        </Link>
+      </div>
       <p className="font-['Poppins'] text-lg md:text-xl mt-3 text-blue-600 max-w-2xl mx-auto">
         Documents you must have ready to Apply:
       </p>
