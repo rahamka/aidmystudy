@@ -5,7 +5,7 @@ function Hero() {
     <main className="h-125">
       {/* Welcome Div */}
       <div className="flex flex-wrap justify-center items-center h-full md:gap-4 max-md:text-center">
-        <div>
+        <div className=" text-center">
           <p className="font-['Caveat'] text-5xl cursor-default">Welcome</p>
           <h1 className="font-['Poppins'] text-4xl cursor-default">
             Best Learning
