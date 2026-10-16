@@ -6,6 +6,7 @@ import Documents from "./components/Documents.jsx";
 import ApplyWithUs from "./components/Apply-With-Us.jsx";
 import Contact from "./components/Contact.jsx";
 import Donate from "./components/Donate.jsx";
+import About from "./components/About.jsx";
 
 function Home() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="apply-with-us" element={<ApplyWithUs />} />
         <Route path="contact" element={<Contact />} />
         <Route path="donate" element={<Donate />} />
+        <Route path="about" element={<About />} />
       </Route>
     </Routes>
   );
