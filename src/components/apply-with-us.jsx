@@ -44,13 +44,14 @@ const apply_with_us = () => {
                 <div className="text-slate-600 text-sm leading-relaxed mb-3">
                   Provide your academic records and documents via email to:{" "}
                   <a
-                    href="mailto:rkdeveloper34@://gmail.com"
+                    href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRwRrrrkshmGVhMqHvSPHKXWQflZqjSflmDGdnlQlknrBkJSpdlrSbwQDZFBtkfGGtTLGQCS"
+                    target="_blank"
                     className="text-indigo-600 font-semibold hover:underline block mt-1 break-all">
                     rkdeveloper34@gmail.com
                   </a>
                 </div>
               </div>
-
+              {/* i@w#b$f%a&g*** */}
               <div className="flex gap-2 text-rose-500 text-[13px] font-semibold">
                 Important: Please provide all documents in PDF format as
                 mentioned in our "Documents for Apply" section.

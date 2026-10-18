@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router";
 import Layout from "./components/Layout.jsx";
-import Hero from "./components/hero.jsx";
+import Hero from "./components/Hero.jsx";
 import UniInfo from "./components/UniInfo.jsx";
 import Documents from "./components/Documents.jsx";
 import ApplyWithUs from "./components/Apply-With-Us.jsx";
