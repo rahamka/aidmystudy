@@ -92,6 +92,13 @@ const apply_with_us = () => {
                     Please email us your payment screenshot as proof of deposit.
                   </span>
                 </li>
+                <li>
+                  <span className="font-bold text-indigo-500">5.</span>{" "}
+                  <span>
+                    You can contact us on WhatsApp Number which is given above
+                    for Payment
+                  </span>
+                </li>
                 <li className="flex gap-2 text-rose-500 font-medium">
                   <span className="font-bold">•</span>
                   <span>
