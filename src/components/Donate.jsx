@@ -79,7 +79,6 @@ const Donate = () => {
           </div>
         </section>
       </div>
-      <h1>Donate Us</h1>
     </div>
   );
 };
