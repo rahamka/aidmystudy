@@ -61,7 +61,7 @@ const Donate = () => {
                   href="mailto:rkdeveloper34@://gmail.com"
                   className="text-xs font-semibold text-indigo-600 hover:underline block mt-4 break-all">
                   rkdeveloper34@gmail.com
-                </a>
+                </a>  
               </div>
             </div>
 

@@ -1,3 +1,4 @@
+import ProfileImg from "../assets/Profile.jpeg";
 import { Link } from "react-router";
 
 const About = () => {
@@ -30,7 +31,7 @@ const About = () => {
             <div className="bg-white p-8 rounded-2xl shadow-md border border-slate-100 max-w-xl mx-auto text-center md:text-left md:flex items-center gap-8">
               {/* Avatar / Placeholder for your picture */}
               <div className="w-24 h-24 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center text-3xl font-bold mx-auto md:mx-0 mb-4 md:mb-0 shrink-0">
-                RA
+                <img className="rounded-[10px]" src={ProfileImg} alt="" />
               </div>
 
               {/* Profile Details */}
