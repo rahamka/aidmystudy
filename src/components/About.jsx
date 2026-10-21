@@ -51,7 +51,7 @@ const About = () => {
                 {/* Social Links Grid */}
                 <div className="grid grid-cols-2 gap-3 max-w-sm mx-auto md:mx-0">
                   <a
-                    href="www.linkedin.com/in/raham-kalhoro"
+                    href="https://linkedin.com/in/raham-kalhoro"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center justify-center md:justify-start gap-2 text-sm font-semibold text-slate-600 hover:text-indigo-600 transition-colors">
