@@ -11,7 +11,7 @@ const About = () => {
         </Link>
 
         {/* Contact Us */}
-        <section className="bg-slate-50 py-16 px-6 lg:px-20 text-slate-800 min-h-screen flex items-center">
+        <section className="py-16 px-6 lg:px-20 text-slate-800 min-h-screen flex items-center">
           <div className="max-w-4xl mx-auto text-center">
             {/* Our Mission */}
             <div className="mb-16">

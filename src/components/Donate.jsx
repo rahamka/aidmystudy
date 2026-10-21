@@ -10,7 +10,7 @@ const Donate = () => {
         </Link>
 
         {/* Donate Us Section */}
-        <section className=" py-16 px-6 lg:px-20 text-slate-800 min-h-screen flex items-center">
+        <section className="py-16 px-6 lg:px-20 text-slate-800 min-h-screen flex items-center">
           <div className="max-w-4xl mx-auto text-center">
             {/* Header Section */}
             <h2 className="text-3xl md:text-4xl font-bold text-indigo-600 mb-4">
@@ -25,18 +25,18 @@ const Donate = () => {
             {/* Donation Details Grid */}
             <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
               {/* Card 1: Mobile Wallets */}
-              <div className="bg-white p-6 rounded-xl shadow-md border border-slate-100 text-left">
-                <div className="text-xl font-bold text-indigo-500 mb-4 flex items-center gap-2">
+              <div className="text-center bg-white p-6 rounded-xl shadow-md border border-slate-100 ">
+                <div className="text-xl font-bold text-indigo-500 mb-5 flex justify-center items-center gap-2">
                   📱 Mobile Wallets
                 </div>
-                <div className="space-y-3 text-slate-600 text-sm">
+                <div className=" text-slate-600 text-sm">
                   <p>
                     🟢{" "}
                     <strong className="text-slate-800">
                       EasyPaisa / JazzCash:
                     </strong>
                   </p>
-                  <p className="bg-slate-50 p-2.5 rounded font-mono text-indigo-600 font-bold tracking-wide">
+                  <p className="bg-slate-50 p-2 rounded font-mono text-indigo-600 font-bold tracking-wide">
                     +92 309 9620124
                   </p>
                   <p className="text-xs text-slate-500">
@@ -46,7 +46,7 @@ const Donate = () => {
               </div>
 
               {/* Card 2: Share Proof */}
-              <div className="bg-white p-6 rounded-xl shadow-md border border-slate-100 text-left flex flex-col justify-between">
+              <div className="text-center bg-white p-6 rounded-xl shadow-md border border-slate-100 flex flex-col justify-between">
                 <div>
                   <div className="text-xl font-bold text-indigo-500 mb-4">
                     📩 Share Receipt
