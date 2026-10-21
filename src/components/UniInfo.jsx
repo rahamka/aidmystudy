@@ -1,5 +1,4 @@
 function UniInfo() {
-  // Scholarship ka data yahan manage karein
   const scholarships = [
     {
       id: 1,
@@ -338,7 +337,6 @@ function UniInfo() {
         "Zero (This is one of the most generous scholarships globally, everything is pre-paid or reimbursed)",
     },
   ];
-  // Aap yahan mazeed scholarships asani se add kar sakte hain
 
   return (
     <div id="UniInfo" className="bg-slate-50 min-h-screen pb-10">
@@ -434,8 +432,6 @@ function UniInfo() {
             </div>
           ))}
         </div>
-
-        {/* Schlorship 2 */}
       </div>
     </div>
   );
