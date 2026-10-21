@@ -22,7 +22,7 @@ const apply_with_us = () => {
             your profile to official scholarship portals flawlessly.
           </p>
           {/* Request Card */}
-          <div className="bg-white p-6 rounded-xl shadow-md border border-slate-100 max-h-fit">
+          <div className="bg-white p-6 rounded-xl shadow-md max-h-fit border-2 border-blue-100">
             <div className="text-xl font-bold text-indigo-500 mb-2">
               Simple Request
             </div>
@@ -35,7 +35,7 @@ const apply_with_us = () => {
           {/* Steps Grid */}
           <div className="flex justify-center items-center gap-4 flex-wrap flex-row ">
             {/* Documents Card */}
-            <div className="bg-white p-6 rounded-xl shadow-md border border-slate-100 h-full flex flex-col justify-between max-w-85">
+            <div className="border-2 border-blue-100 bg-white p-6 rounded-xl  h-full flex flex-col justify-between max-w-85">
               <div>
                 <div className="text-xl font-bold text-indigo-500 mb-2">
                   Your Documents
@@ -59,7 +59,7 @@ const apply_with_us = () => {
             </div>
 
             {/* Important Instructions Card */}
-            <div className="bg-white p-6 rounded-xl shadow-md border border-slate-100 max-w-85">
+            <div className="bg-white p-6 rounded-xl shadow-md max-w-85 border border-blue-100">
               <div className="text-xl font-bold text-indigo-500 mb-4">
                 Important Instructions
               </div>
@@ -96,7 +96,7 @@ const apply_with_us = () => {
                   <span className="font-bold text-indigo-500">5.</span>{" "}
                   <span>
                     You can contact us on WhatsApp Number which is given above
-                    for Payment
+                    for Payment.
                   </span>
                 </li>
                 <li className="flex gap-2 text-rose-500 font-medium">
